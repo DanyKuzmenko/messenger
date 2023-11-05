@@ -6,6 +6,7 @@ module.exports = {
   'extends': [
     'eslint:recommended',
     'plugin:react/recommended',
+    'plugin:@typescript-eslint/recommended',
   ],
   'parserOptions': {
     'ecmaVersion': 'latest',
@@ -16,5 +17,6 @@ module.exports = {
   ],
   'rules': {
     'react/no-set-state': 'off',
+    "react/react-in-jsx-scope": "off",
   },
 };
